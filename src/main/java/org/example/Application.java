@@ -1,10 +1,11 @@
 package org.example;
 
-import org.apache.catalina.LifecycleException;
+import org.example.external_variable.GlowestProperties;
+import org.example.listener.ListenerAppStarting;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 
 @SpringBootApplication

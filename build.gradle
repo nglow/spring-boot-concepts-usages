@@ -29,6 +29,8 @@ repositories {
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation 'junit:junit:4.13.1'
+    implementation 'org.hibernate.validator:hibernate-validator'
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 //    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.7.0')
