@@ -1,15 +1,12 @@
 package org.example.external_variable;
 
-import com.sun.istack.internal.NotNull;
+import org.hibernate.validator.constraints.Range;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.convert.DurationUnit;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
 import java.time.Duration;
-import java.time.temporal.ChronoUnit;
 
 @Component
 @ConfigurationProperties("glowest")
@@ -19,8 +16,8 @@ public class GlowestProperties {
     @NotEmpty
     private String name;
 
-    @Size(min = 0, max = 100)
-    private int age;
+    @Range(min = 0, max = 100)
+    private Integer age;
 
     private String fullName;
 
