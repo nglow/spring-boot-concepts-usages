@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 public class Application {
-
+    // Tools
     public static void main(String[] args) {
         // Customizing 을 위해 SpringApplication을 생성하는 방법에는 아래와 같은 방법과 SpringApplicationBuilder()를 사용하는 방법이 있다.
         SpringApplication app = new SpringApplication(Application.class);
