@@ -1,4 +1,4 @@
-package org.example;
+package org.example.args_checker;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

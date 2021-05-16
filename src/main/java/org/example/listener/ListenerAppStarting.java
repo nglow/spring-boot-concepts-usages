@@ -1,4 +1,4 @@
-package org.example;
+package org.example.listener;
 
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.boot.context.event.ApplicationStartingEvent;
